@@ -8,8 +8,8 @@ import busio
 #   https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
 from adafruit_pca9685 import PCA9685
 
-from .motor import Motor
-
+from .mse_motor import Motor
+#from jetbot import Motor
 
 class Robot(SingletonConfigurable):
     
